@@ -1,0 +1,1354 @@
+fileFormatVersion: 2
+guid: 97ec2c4c105e699468f1fa54e6c2de92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -628311926051852124
+    second: "behlu\u0308lwalkson_0"
+  - first:
+      213: -1408162394302968482
+    second: "behlu\u0308lwalkson_1"
+  - first:
+      213: -1615165070103398228
+    second: "behlu\u0308lwalkson_2"
+  - first:
+      213: 1235225125294227527
+    second: "behlu\u0308lwalkson_3"
+  - first:
+      213: 8410146063039568061
+    second: "behlu\u0308lwalkson_4"
+  - first:
+      213: 2629351847093035702
+    second: "behlu\u0308lwalkson_5"
+  - first:
+      213: 8301744537007931988
+    second: "behlu\u0308lwalkson_6"
+  - first:
+      213: -5642361685931329673
+    second: "behlu\u0308lwalkson_7"
+  - first:
+      213: 1852442761117933177
+    second: "behlu\u0308lwalkson_8"
+  - first:
+      213: -6423693088271149875
+    second: "behlu\u0308lwalkson_9"
+  - first:
+      213: -4920868666681853601
+    second: "behlu\u0308lwalkson_10"
+  - first:
+      213: -6585263747134845374
+    second: "behlu\u0308lwalkson_11"
+  - first:
+      213: -4986165900262006048
+    second: "behlu\u0308lwalkson_12"
+  - first:
+      213: -3576850214811779505
+    second: "behlu\u0308lwalkson_13"
+  - first:
+      213: -1885851884889451631
+    second: "behlu\u0308lwalkson_14"
+  - first:
+      213: 4379895590962488439
+    second: "behlu\u0308lwalkson_15"
+  - first:
+      213: 2434815342460718709
+    second: "behlu\u0308lwalkson_16"
+  - first:
+      213: 575183623642617735
+    second: "behlu\u0308lwalkson_17"
+  - first:
+      213: -7416325030663937755
+    second: "behlu\u0308lwalkson_18"
+  - first:
+      213: -3702287346946747399
+    second: "behlu\u0308lwalkson_19"
+  - first:
+      213: 3340799979885870819
+    second: "behlu\u0308lwalkson_20"
+  - first:
+      213: 5468731289483328991
+    second: "behlu\u0308lwalkson_21"
+  - first:
+      213: 3625085697404816579
+    second: "behlu\u0308lwalkson_22"
+  - first:
+      213: -3160405832630446802
+    second: "behlu\u0308lwalkson_23"
+  - first:
+      213: 7740577845994429103
+    second: "behlu\u0308lwalkson_24"
+  - first:
+      213: 5477442850340850126
+    second: "behlu\u0308lwalkson_25"
+  - first:
+      213: -134759821668543096
+    second: "behlu\u0308lwalkson_26"
+  - first:
+      213: -1060241272675968746
+    second: "behlu\u0308lwalkson_27"
+  - first:
+      213: -5440046238095326393
+    second: "behlu\u0308lwalkson_28"
+  - first:
+      213: -9215963411779540387
+    second: "behlu\u0308lwalkson_29"
+  - first:
+      213: -398373149742431118
+    second: "behlu\u0308lwalkson_30"
+  - first:
+      213: -6829702270138648051
+    second: "behlu\u0308lwalkson_31"
+  - first:
+      213: -7514762383432738063
+    second: "behlu\u0308lwalkson_32"
+  - first:
+      213: 8684857188534200639
+    second: "behlu\u0308lwalkson_33"
+  - first:
+      213: -5278160172335241292
+    second: "behlu\u0308lwalkson_34"
+  - first:
+      213: 2875329920204188129
+    second: "behlu\u0308lwalkson_35"
+  - first:
+      213: -5023401867269675990
+    second: "behlu\u0308lwalkson_36"
+  - first:
+      213: 1309465567707983958
+    second: "behlu\u0308lwalkson_37"
+  - first:
+      213: -4736768668986016977
+    second: "behlu\u0308lwalkson_38"
+  - first:
+      213: -5528782264789338771
+    second: "behlu\u0308lwalkson_39"
+  - first:
+      213: -7718954136116785393
+    second: "behlu\u0308lwalkson_40"
+  - first:
+      213: -2356478641583730678
+    second: "behlu\u0308lwalkson_41"
+  - first:
+      213: 7516335843032225827
+    second: "behlu\u0308lwalkson_42"
+  - first:
+      213: 7746170764522181038
+    second: "behlu\u0308lwalkson_43"
+  - first:
+      213: -4914668030836137307
+    second: "behlu\u0308lwalkson_44"
+  - first:
+      213: 8270742129507936226
+    second: "behlu\u0308lwalkson_45"
+  - first:
+      213: 4031284068185857389
+    second: "behlu\u0308lwalkson_46"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_3"
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 976
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740cccaf4b6642110800000000000000
+      internalID: 1235225125294227527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_4"
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 980
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db89f941947d6b470800000000000000
+      internalID: 8410146063039568061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_6"
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 959
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452c5600ca8b53370800000000000000
+      internalID: 8301744537007931988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_7"
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 937
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777f9cfe0fd42b1b0800000000000000
+      internalID: -5642361685931329673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_8"
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e9d2760e235b910800000000000000
+      internalID: 1852442761117933177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_9"
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 781
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4577f9b257ad6a0800000000000000
+      internalID: -6423693088271149875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_10"
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 781
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59f310050095bbb0800000000000000
+      internalID: -4920868666681853601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_11"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 781
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e05cf13817c94a0800000000000000
+      internalID: -6585263747134845374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_12"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 781
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2a7b318849dcab0800000000000000
+      internalID: -4986165900262006048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_13"
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 760
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e3d5b3ea97c5ec0800000000000000
+      internalID: -3576850214811779505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_14"
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 760
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193d92ec3bb14d5e0800000000000000
+      internalID: -1885851884889451631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_19"
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 337
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3d0d40645de9cc0800000000000000
+      internalID: -3702287346946747399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_20"
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 337
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eebab2a1e7ec5e20800000000000000
+      internalID: 3340799979885870819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_21"
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 188
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddb7b91226d4eb40800000000000000
+      internalID: 5468731289483328991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_22"
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 186
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccc92a3c34ee4230800000000000000
+      internalID: 3625085697404816579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_23"
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 197
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255df7c3abf324d0800000000000000
+      internalID: -3160405832630446802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_24"
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 198
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa91c22a8e0c6b60800000000000000
+      internalID: 7740577845994429103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_25"
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 197
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9c11c6049c30c40800000000000000
+      internalID: 5477442850340850126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_26"
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 198
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885937bf7ac312ef0800000000000000
+      internalID: -134759821668543096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_27"
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 179
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619d0fd0e244941f0800000000000000
+      internalID: -1060241272675968746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_28"
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 188
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743c0a0e4c21184b0800000000000000
+      internalID: -5440046238095326393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_29"
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 188
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a22e1fa125a1080800000000000000
+      internalID: -9215963411779540387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_30"
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 176
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2748c812bb1b87af0800000000000000
+      internalID: -398373149742431118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_31"
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 179
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0af4ba78f50831a0800000000000000
+      internalID: -6829702270138648051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_32"
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 188
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa160c5d6336b790800000000000000
+      internalID: -7514762383432738063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_33"
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 189
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39249f399fc68870800000000000000
+      internalID: 8684857188534200639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_34"
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 182
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7e754c94530c6b0800000000000000
+      internalID: -5278160172335241292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_35"
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 182
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9a2d9045937e720800000000000000
+      internalID: 2875329920204188129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_36"
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 166
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a246b59ed9a494ab0800000000000000
+      internalID: -5023401867269675990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_37"
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 166
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650f6d8fef72c2210800000000000000
+      internalID: 1309465567707983958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_38"
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 166
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b73e5fdfd934eb0800000000000000
+      internalID: -4736768668986016977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_39"
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 166
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6570caa2d1d543b0800000000000000
+      internalID: -5528782264789338771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_40"
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 166
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f0a372c14c0e490800000000000000
+      internalID: -7718954136116785393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_41"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 166
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a005b9f192b1c4fd0800000000000000
+      internalID: -2356478641583730678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_42"
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 172
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328d87040a36f4860800000000000000
+      internalID: 7516335843032225827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_43"
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 160
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea15cd4f44def7b60800000000000000
+      internalID: 7746170764522181038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_44"
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a22b0907779bcbb0800000000000000
+      internalID: -4914668030836137307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_45"
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 160
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7ad22852497c270800000000000000
+      internalID: 8270742129507936226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_46"
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dd8e8508ff1f730800000000000000
+      internalID: 4031284068185857389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_up1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 781
+        width: 271
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e33bebdc0edadb499d2925e5739503c
+      internalID: 1840481368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_up2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 760
+        width: 258
+        height: 577
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad99560d735f214aac3a69541b3dcde
+      internalID: -1336395224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_down1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 795
+        width: 218
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47a9eae2aee74c4990ffbf77da3cfe6
+      internalID: 2026723721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_down2
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 795
+        width: 218
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e0f77a3f69d1478adcfc67535a977
+      internalID: 503615774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_left1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 166
+        width: 289
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f58e40e422299488ed74f9fb726971
+      internalID: -1916921697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_left2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 174
+        width: 265
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ceba24e3c6b574b98522f1b0ce8c7b
+      internalID: -975105499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_right1
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 169
+        width: 261
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4302be9b90717284cb104b0c62db69ba
+      internalID: 167425239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: b_right2
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 168
+        width: 243
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3bb7048d295a34e9537ac03f53c717
+      internalID: -1112484265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cbd33e453b6dc844189841b7e8f65ff0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      b_down1: 2026723721
+      b_down2: 503615774
+      b_left1: -1916921697
+      b_left2: -975105499
+      b_right1: 167425239
+      b_right2: -1112484265
+      b_up1: 1840481368
+      b_up2: -1336395224
+      "behlu\u0308lwalkson_10": -4920868666681853601
+      "behlu\u0308lwalkson_11": -6585263747134845374
+      "behlu\u0308lwalkson_12": -4986165900262006048
+      "behlu\u0308lwalkson_13": -3576850214811779505
+      "behlu\u0308lwalkson_14": -1885851884889451631
+      "behlu\u0308lwalkson_19": -3702287346946747399
+      "behlu\u0308lwalkson_20": 3340799979885870819
+      "behlu\u0308lwalkson_21": 5468731289483328991
+      "behlu\u0308lwalkson_22": 3625085697404816579
+      "behlu\u0308lwalkson_23": -3160405832630446802
+      "behlu\u0308lwalkson_24": 7740577845994429103
+      "behlu\u0308lwalkson_25": 5477442850340850126
+      "behlu\u0308lwalkson_26": -134759821668543096
+      "behlu\u0308lwalkson_27": -1060241272675968746
+      "behlu\u0308lwalkson_28": -5440046238095326393
+      "behlu\u0308lwalkson_29": -9215963411779540387
+      "behlu\u0308lwalkson_3": 1235225125294227527
+      "behlu\u0308lwalkson_30": -398373149742431118
+      "behlu\u0308lwalkson_31": -6829702270138648051
+      "behlu\u0308lwalkson_32": -7514762383432738063
+      "behlu\u0308lwalkson_33": 8684857188534200639
+      "behlu\u0308lwalkson_34": -5278160172335241292
+      "behlu\u0308lwalkson_35": 2875329920204188129
+      "behlu\u0308lwalkson_36": -5023401867269675990
+      "behlu\u0308lwalkson_37": 1309465567707983958
+      "behlu\u0308lwalkson_38": -4736768668986016977
+      "behlu\u0308lwalkson_39": -5528782264789338771
+      "behlu\u0308lwalkson_4": 8410146063039568061
+      "behlu\u0308lwalkson_40": -7718954136116785393
+      "behlu\u0308lwalkson_41": -2356478641583730678
+      "behlu\u0308lwalkson_42": 7516335843032225827
+      "behlu\u0308lwalkson_43": 7746170764522181038
+      "behlu\u0308lwalkson_44": -4914668030836137307
+      "behlu\u0308lwalkson_45": 8270742129507936226
+      "behlu\u0308lwalkson_46": 4031284068185857389
+      "behlu\u0308lwalkson_6": 8301744537007931988
+      "behlu\u0308lwalkson_7": -5642361685931329673
+      "behlu\u0308lwalkson_8": 1852442761117933177
+      "behlu\u0308lwalkson_9": -6423693088271149875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

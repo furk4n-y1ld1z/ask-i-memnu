@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 812e94e88da177047b8896614a50e8b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2589611534388292342
+    second: Assetspause_0
+  - first:
+      213: -5242828568604316464
+    second: Assetspause_1
+  - first:
+      213: 6400752464781126712
+    second: Assetspause_2
+  - first:
+      213: 441786105358823688
+    second: Assetspause_3
+  - first:
+      213: 5529441536734601607
+    second: Assetspause_4
+  - first:
+      213: -710370567344269957
+    second: Assetspause_5
+  - first:
+      213: -3336069623481167343
+    second: Assetspause_6
+  - first:
+      213: -6023898142230894845
+    second: Assetspause_7
+  - first:
+      213: -681063861615832871
+    second: Assetspause_8
+  - first:
+      213: 8542639070439081766
+    second: Assetspause_9
+  - first:
+      213: -7925108222796807709
+    second: Assetspause_10
+  - first:
+      213: -4621387824524034730
+    second: Assetspause_11
+  - first:
+      213: -7285876459097707747
+    second: Assetspause_12
+  - first:
+      213: -3964156875194054676
+    second: Assetspause_13
+  - first:
+      213: -2102618793498976512
+    second: Assetspause_14
+  - first:
+      213: 3761330294640752459
+    second: Assetspause_15
+  - first:
+      213: -4627024409122822469
+    second: Assetspause_16
+  - first:
+      213: -7760479559038723556
+    second: Assetspause_17
+  - first:
+      213: 7412919765466933526
+    second: Assetspause_18
+  - first:
+      213: 286233770264331259
+    second: Assetspause_19
+  - first:
+      213: -7698537145015625468
+    second: Assetspause_20
+  - first:
+      213: 740254877306589697
+    second: Assetspause_21
+  - first:
+      213: 7635765757139616709
+    second: Assetspause_22
+  - first:
+      213: 7720160023841205882
+    second: Assetspause_23
+  - first:
+      213: 2364562110004991280
+    second: Assetspause_24
+  - first:
+      213: 8002558145639024031
+    second: Assetspause_25
+  - first:
+      213: -1460136370117897229
+    second: Assetspause_26
+  - first:
+      213: 1588748310322965423
+    second: Assetspause_27
+  - first:
+      213: -6275568715045106670
+    second: Assetspause_28
+  - first:
+      213: 2403965660184117339
+    second: Assetspause_29
+  - first:
+      213: 1343383884938536438
+    second: Assetspause_30
+  - first:
+      213: -4077791041873716907
+    second: Assetspause_31
+  - first:
+      213: 2866388781080699059
+    second: Assetspause_32
+  - first:
+      213: -26866423358628045
+    second: Assetspause_33
+  - first:
+      213: 1514916514070466364
+    second: Assetspause_34
+  - first:
+      213: -3704797373789681811
+    second: Assetspause_35
+  - first:
+      213: 791982482881489139
+    second: Assetspause_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assetspause_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1916
+        width: 1280
+        height: 1488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a051882a70adf0cd0800000000000000
+      internalID: -2589611534388292342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_1
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1761
+        width: 806
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dce11ec13bbd37b0800000000000000
+      internalID: -5242828568604316464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_2
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1895
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c2c7e347a04d850800000000000000
+      internalID: 6400752464781126712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_3
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1879
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801bd944f1a812600800000000000000
+      internalID: 441786105358823688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 304
+        width: 1261
+        height: 1451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7812b5b08c58cbc40800000000000000
+      internalID: 5529441536734601607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_5
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1579
+        width: 158
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b755d829bb14426f0800000000000000
+      internalID: -710370567344269957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_6
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1733
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1121f6a4a56e3b1d0800000000000000
+      internalID: -3336069623481167343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_7
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1719
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307213d3e80d66ca0800000000000000
+      internalID: -6023898142230894845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_8
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1617
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0580bb6006c86f0800000000000000
+      internalID: -681063861615832871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_9
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1711
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62705e549fc8d8670800000000000000
+      internalID: 8542639070439081766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_10
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1711
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e14ba57f0c540290800000000000000
+      internalID: -7925108222796807709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_11
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1677
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dfded32488ddfb0800000000000000
+      internalID: -4621387824524034730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_12
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1457
+        width: 101
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ba91276fd53ea90800000000000000
+      internalID: -7285876459097707747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_13
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 1547
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7c224335c7cf8c0800000000000000
+      internalID: -3964156875194054676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_14
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1132
+        width: 410
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fde63f85ff1d2e0800000000000000
+      internalID: -2102618793498976512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_15
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 1485
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b473afe79fde23430800000000000000
+      internalID: 3761330294640752459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_16
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1335
+        width: 504
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb62c2f90d189cfb0800000000000000
+      internalID: -4627024409122822469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_17
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a11d435fc3d4490800000000000000
+      internalID: -7760479559038723556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_18
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619e029504bffd660800000000000000
+      internalID: 7412919765466933526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_19
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1255
+        width: 504
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf38357f818e8f300800000000000000
+      internalID: 286233770264331259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_20
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4099135514d492590800000000000000
+      internalID: -7698537145015625468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_21
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1299
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1021c1d83e9e54a00800000000000000
+      internalID: 740254877306589697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_22
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1206
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c306660080b7f960800000000000000
+      internalID: 7635765757139616709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_23
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1113
+        width: 86
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ee93673a4832b60800000000000000
+      internalID: 7720160023841205882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_24
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1206
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035123806bc90d020800000000000000
+      internalID: 2364562110004991280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_25
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1120
+        width: 108
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95093deb3cce0f60800000000000000
+      internalID: 8002558145639024031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_26
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1198
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f39e7f15bd8cbbe0800000000000000
+      internalID: -1460136370117897229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_27
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1198
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab6d42bb2e5c0610800000000000000
+      internalID: 1588748310322965423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_28
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1142
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c8e28c083b8e8a0800000000000000
+      internalID: -6275568715045106670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_29
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 987
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50038bf70a9c5120800000000000000
+      internalID: 2403965660184117339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_30
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 872
+        width: 746
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5eeba9688a4a210800000000000000
+      internalID: 1343383884938536438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_31
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 627
+        width: 744
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559d8d807a6c867c0800000000000000
+      internalID: -4077791041873716907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_32
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 795
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0ea7cd86577c720800000000000000
+      internalID: 2866388781080699059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_33
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 795
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fd25b512d80aff0800000000000000
+      internalID: -26866423358628045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_34
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 739
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f0b8d0b80160510800000000000000
+      internalID: 1514916514070466364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_35
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 87
+        width: 1209
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67477ada6ae59cc0800000000000000
+      internalID: -3704797373789681811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assetspause_36
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 263
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ab704fdfadfa00800000000000000
+      internalID: 791982482881489139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assetspause_0: -2589611534388292342
+      Assetspause_1: -5242828568604316464
+      Assetspause_10: -7925108222796807709
+      Assetspause_11: -4621387824524034730
+      Assetspause_12: -7285876459097707747
+      Assetspause_13: -3964156875194054676
+      Assetspause_14: -2102618793498976512
+      Assetspause_15: 3761330294640752459
+      Assetspause_16: -4627024409122822469
+      Assetspause_17: -7760479559038723556
+      Assetspause_18: 7412919765466933526
+      Assetspause_19: 286233770264331259
+      Assetspause_2: 6400752464781126712
+      Assetspause_20: -7698537145015625468
+      Assetspause_21: 740254877306589697
+      Assetspause_22: 7635765757139616709
+      Assetspause_23: 7720160023841205882
+      Assetspause_24: 2364562110004991280
+      Assetspause_25: 8002558145639024031
+      Assetspause_26: -1460136370117897229
+      Assetspause_27: 1588748310322965423
+      Assetspause_28: -6275568715045106670
+      Assetspause_29: 2403965660184117339
+      Assetspause_3: 441786105358823688
+      Assetspause_30: 1343383884938536438
+      Assetspause_31: -4077791041873716907
+      Assetspause_32: 2866388781080699059
+      Assetspause_33: -26866423358628045
+      Assetspause_34: 1514916514070466364
+      Assetspause_35: -3704797373789681811
+      Assetspause_36: 791982482881489139
+      Assetspause_4: 5529441536734601607
+      Assetspause_5: -710370567344269957
+      Assetspause_6: -3336069623481167343
+      Assetspause_7: -6023898142230894845
+      Assetspause_8: -681063861615832871
+      Assetspause_9: 8542639070439081766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

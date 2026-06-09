@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: 04a9a6d2982b4d64382e5c0665f71ead
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -628311926051852124
+    second: "behlu\u0308lwalkson_0"
+  - first:
+      213: -1408162394302968482
+    second: "behlu\u0308lwalkson_1"
+  - first:
+      213: -1615165070103398228
+    second: "behlu\u0308lwalkson_2"
+  - first:
+      213: 1235225125294227527
+    second: "behlu\u0308lwalkson_3"
+  - first:
+      213: 8410146063039568061
+    second: "behlu\u0308lwalkson_4"
+  - first:
+      213: 2629351847093035702
+    second: "behlu\u0308lwalkson_5"
+  - first:
+      213: 8301744537007931988
+    second: "behlu\u0308lwalkson_6"
+  - first:
+      213: -5642361685931329673
+    second: "behlu\u0308lwalkson_7"
+  - first:
+      213: 1852442761117933177
+    second: "behlu\u0308lwalkson_8"
+  - first:
+      213: -6423693088271149875
+    second: "behlu\u0308lwalkson_9"
+  - first:
+      213: -4920868666681853601
+    second: "behlu\u0308lwalkson_10"
+  - first:
+      213: -6585263747134845374
+    second: "behlu\u0308lwalkson_11"
+  - first:
+      213: -4986165900262006048
+    second: "behlu\u0308lwalkson_12"
+  - first:
+      213: -3576850214811779505
+    second: "behlu\u0308lwalkson_13"
+  - first:
+      213: -1885851884889451631
+    second: "behlu\u0308lwalkson_14"
+  - first:
+      213: 4379895590962488439
+    second: "behlu\u0308lwalkson_15"
+  - first:
+      213: 2434815342460718709
+    second: "behlu\u0308lwalkson_16"
+  - first:
+      213: 575183623642617735
+    second: "behlu\u0308lwalkson_17"
+  - first:
+      213: -7416325030663937755
+    second: "behlu\u0308lwalkson_18"
+  - first:
+      213: -3702287346946747399
+    second: "behlu\u0308lwalkson_19"
+  - first:
+      213: 3340799979885870819
+    second: "behlu\u0308lwalkson_20"
+  - first:
+      213: 5468731289483328991
+    second: "behlu\u0308lwalkson_21"
+  - first:
+      213: 3625085697404816579
+    second: "behlu\u0308lwalkson_22"
+  - first:
+      213: -3160405832630446802
+    second: "behlu\u0308lwalkson_23"
+  - first:
+      213: 7740577845994429103
+    second: "behlu\u0308lwalkson_24"
+  - first:
+      213: 5477442850340850126
+    second: "behlu\u0308lwalkson_25"
+  - first:
+      213: -134759821668543096
+    second: "behlu\u0308lwalkson_26"
+  - first:
+      213: -1060241272675968746
+    second: "behlu\u0308lwalkson_27"
+  - first:
+      213: -5440046238095326393
+    second: "behlu\u0308lwalkson_28"
+  - first:
+      213: -9215963411779540387
+    second: "behlu\u0308lwalkson_29"
+  - first:
+      213: -398373149742431118
+    second: "behlu\u0308lwalkson_30"
+  - first:
+      213: -6829702270138648051
+    second: "behlu\u0308lwalkson_31"
+  - first:
+      213: -7514762383432738063
+    second: "behlu\u0308lwalkson_32"
+  - first:
+      213: 8684857188534200639
+    second: "behlu\u0308lwalkson_33"
+  - first:
+      213: -5278160172335241292
+    second: "behlu\u0308lwalkson_34"
+  - first:
+      213: 2875329920204188129
+    second: "behlu\u0308lwalkson_35"
+  - first:
+      213: -5023401867269675990
+    second: "behlu\u0308lwalkson_36"
+  - first:
+      213: 1309465567707983958
+    second: "behlu\u0308lwalkson_37"
+  - first:
+      213: -4736768668986016977
+    second: "behlu\u0308lwalkson_38"
+  - first:
+      213: -5528782264789338771
+    second: "behlu\u0308lwalkson_39"
+  - first:
+      213: -7718954136116785393
+    second: "behlu\u0308lwalkson_40"
+  - first:
+      213: -2356478641583730678
+    second: "behlu\u0308lwalkson_41"
+  - first:
+      213: 7516335843032225827
+    second: "behlu\u0308lwalkson_42"
+  - first:
+      213: 7746170764522181038
+    second: "behlu\u0308lwalkson_43"
+  - first:
+      213: -4914668030836137307
+    second: "behlu\u0308lwalkson_44"
+  - first:
+      213: 8270742129507936226
+    second: "behlu\u0308lwalkson_45"
+  - first:
+      213: 4031284068185857389
+    second: "behlu\u0308lwalkson_46"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_ileri1"
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 780
+        width: 273
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0b987d1a9c747f0800000000000000
+      internalID: -628311926051852124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_ileri2"
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 759
+        width: 260
+        height: 579
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d028d53c3357ce0800000000000000
+      internalID: -1408162394302968482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_geri1"
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 790
+        width: 220
+        height: 516
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca83ede1de7c599e0800000000000000
+      internalID: -1615165070103398228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_geri2"
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 794
+        width: 220
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b26f73f2955d7420800000000000000
+      internalID: 2629351847093035702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_sol1"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 291
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7746e9495d388cc30800000000000000
+      internalID: 4379895590962488439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_sol2"
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 173
+        width: 267
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57eca0d57a33ac120800000000000000
+      internalID: 2434815342460718709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_sa\u011F1"
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 168
+        width: 263
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78717df45767bf700800000000000000
+      internalID: 575183623642617735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "behlu\u0308lwalkson_sa\u011F2"
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 167
+        width: 245
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52120709dabe31990800000000000000
+      internalID: -7416325030663937755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 135a13808dd1a5f4c869c67e29a60bf1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "behlu\u0308lwalkson_10": -4920868666681853601
+      "behlu\u0308lwalkson_11": -6585263747134845374
+      "behlu\u0308lwalkson_12": -4986165900262006048
+      "behlu\u0308lwalkson_13": -3576850214811779505
+      "behlu\u0308lwalkson_14": -1885851884889451631
+      "behlu\u0308lwalkson_19": -3702287346946747399
+      "behlu\u0308lwalkson_20": 3340799979885870819
+      "behlu\u0308lwalkson_21": 5468731289483328991
+      "behlu\u0308lwalkson_22": 3625085697404816579
+      "behlu\u0308lwalkson_23": -3160405832630446802
+      "behlu\u0308lwalkson_24": 7740577845994429103
+      "behlu\u0308lwalkson_25": 5477442850340850126
+      "behlu\u0308lwalkson_26": -134759821668543096
+      "behlu\u0308lwalkson_27": -1060241272675968746
+      "behlu\u0308lwalkson_28": -5440046238095326393
+      "behlu\u0308lwalkson_29": -9215963411779540387
+      "behlu\u0308lwalkson_30": -398373149742431118
+      "behlu\u0308lwalkson_31": -6829702270138648051
+      "behlu\u0308lwalkson_32": -7514762383432738063
+      "behlu\u0308lwalkson_33": 8684857188534200639
+      "behlu\u0308lwalkson_34": -5278160172335241292
+      "behlu\u0308lwalkson_35": 2875329920204188129
+      "behlu\u0308lwalkson_36": -5023401867269675990
+      "behlu\u0308lwalkson_37": 1309465567707983958
+      "behlu\u0308lwalkson_38": -4736768668986016977
+      "behlu\u0308lwalkson_39": -5528782264789338771
+      "behlu\u0308lwalkson_4": 8410146063039568061
+      "behlu\u0308lwalkson_40": -7718954136116785393
+      "behlu\u0308lwalkson_41": -2356478641583730678
+      "behlu\u0308lwalkson_42": 7516335843032225827
+      "behlu\u0308lwalkson_43": 7746170764522181038
+      "behlu\u0308lwalkson_44": -4914668030836137307
+      "behlu\u0308lwalkson_45": 8270742129507936226
+      "behlu\u0308lwalkson_46": 4031284068185857389
+      "behlu\u0308lwalkson_6": 8301744537007931988
+      "behlu\u0308lwalkson_7": -5642361685931329673
+      "behlu\u0308lwalkson_8": 1852442761117933177
+      "behlu\u0308lwalkson_9": -6423693088271149875
+      "behlu\u0308lwalkson_geri1": -1615165070103398228
+      "behlu\u0308lwalkson_geri2": 2629351847093035702
+      "behlu\u0308lwalkson_ileri1": -628311926051852124
+      "behlu\u0308lwalkson_ileri2": -1408162394302968482
+      "behlu\u0308lwalkson_sa\u011F1": 575183623642617735
+      "behlu\u0308lwalkson_sa\u011F2": -7416325030663937755
+      "behlu\u0308lwalkson_sol1": 4379895590962488439
+      "behlu\u0308lwalkson_sol2": 2434815342460718709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
