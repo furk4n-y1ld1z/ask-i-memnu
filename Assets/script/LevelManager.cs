@@ -2,22 +2,35 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using TMPro; 
 
 public class LevelManager : MonoBehaviour
 {
     [Header("Ayarlar")]
-    [SerializeField] float fillDuration = 10f;                                  // parfum bari tamamen dolma suresi (saniye)
+    [SerializeField] float fillDuration = 10f; 
     [SerializeField] Color fillColor = new Color(0.2f, 0.9f, 0.3f, 1f);
     [SerializeField] string menuSceneName = "MainMenu";
 
+    [Header("Gizlilik Ayarlari")]
+    [SerializeField] float detectionTimeRequired = 1f; 
+    float currentDetectionTime = 0f;
+
+    [Header("Parfum Toplama")]
+    [SerializeField] private int totalPerfumes = 3; 
+    private int collectedPerfumes = 0;
+
     [Header("Parfum Bar Dolum Ayari (elle ayarla)")]
-    [SerializeField] Vector2 fillOffset = Vector2.zero;   // dolumu sag/sol-yukari/asagi kaydir (parfumbar local birimi)
-    [SerializeField] float fillWidth = 0f;                // dolu haldeki genislik. 0 = sprite genisligini otomatik kullan
-    [SerializeField] float fillHeight = 0f;               // dolum yuksekligi. 0 = sprite yuksekligini otomatik kullan
+    [SerializeField] Vector2 fillOffset = Vector2.zero;   
+    [SerializeField] float fillWidth = 0f;                
+    [SerializeField] float fillHeight = 0f;               
 
     enum State { Playing, Paused, Won, Lost }
     State state;
     float fill;
+
+    private float elapsedTime = 0f;
+    private TMP_Text timeSurvivedText;
+    private TMP_Text totalTimeText;
 
     bihterzone bihterZone;
     npcvision[] npcVisions;
@@ -35,11 +48,18 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
-        fill = 0f;
+        fill = 0f; 
+        elapsedTime = 0f; 
         state = State.Playing;
 
         bihterZone = FindFirstObjectByType<bihterzone>();
         npcVisions = FindObjectsByType<npcvision>(FindObjectsSortMode.None);
+
+        int foundPerfumes = GameObject.FindGameObjectsWithTag("Perfume").Length;
+        if (foundPerfumes > 0)
+        {
+            totalPerfumes = foundPerfumes;
+        }
 
         SetupScreens();
         SetupParfumBar();
@@ -61,37 +81,70 @@ public class LevelManager : MonoBehaviour
         }
         else if (state == State.Paused)
         {
-            if (esc)
-                Resume();
+            if (esc) Resume();
         }
     }
 
     void Gameplay()
     {
-        bool inZone = bihterZone != null && bihterZone.IsPlayerInside();
-        if (!inZone)
-            return;
+        elapsedTime += Time.deltaTime;
 
-        // Bihter dairesi icindeyken bir NPC gorus konisi gorurse game over
+        // 1. SURVIVAL CHECK
         if (IsSeen())
         {
-            GameOver();
-            return;
+            currentDetectionTime += Time.deltaTime;
+            if (currentDetectionTime >= detectionTimeRequired)
+            {
+                GameOver();
+                return;
+            }
+        }
+        else
+        {
+            currentDetectionTime = 0f; 
         }
 
-        if (fillDuration > 0f)
-            fill = Mathf.Clamp01(fill + Time.deltaTime / fillDuration);
+        // 2. ZONE CHECK
+        bool inZone = bihterZone != null && bihterZone.IsPlayerInside();
+        
+        // 3. DRAIN PROGRESS
+        if (inZone && HasAllPerfumes())
+        {
+            if (fillDuration > 0f)
+            {
+                fill -= Time.deltaTime / fillDuration; 
+                fill = Mathf.Clamp01(fill);
+                UpdateBar();
+            }
 
-        UpdateBar();
+            if (fill <= 0f)
+            {
+                LevelClear();
+            }
+        }
+    }
 
-        if (fill >= 1f)
-            LevelClear();
+    public void CollectPerfume()
+    {
+        collectedPerfumes++;
+        Debug.Log("Parfum Toplandi! " + collectedPerfumes + " / " + totalPerfumes);
+
+        if (totalPerfumes > 0)
+        {
+            fill = (float)collectedPerfumes / totalPerfumes;
+            UpdateBar();
+        }
+    }
+
+    public bool HasAllPerfumes()
+    {
+        if (totalPerfumes == 0) return true; 
+        return collectedPerfumes >= totalPerfumes;
     }
 
     bool IsSeen()
     {
-        if (npcVisions == null)
-            return false;
+        if (npcVisions == null) return false;
 
         for (int i = 0; i < npcVisions.Length; i++)
         {
@@ -106,8 +159,7 @@ public class LevelManager : MonoBehaviour
     void SetupScreens()
     {
         GameObject canvas = GameObject.Find("Canvas");
-        if (canvas == null)
-            return;
+        if (canvas == null) return;
 
         Transform[] all = canvas.GetComponentsInChildren<Transform>(true);
         foreach (Transform t in all)
@@ -115,6 +167,9 @@ public class LevelManager : MonoBehaviour
             if (t.name == "PauseScreen") pauseScreen = t;
             else if (t.name == "GameOverScreen") gameOverScreen = t;
             else if (t.name == "WinScreen") winScreen = t;
+            
+            else if (t.name == "TimeSurvivedText") timeSurvivedText = t.GetComponent<TMP_Text>();
+            else if (t.name == "TotalTimeText") totalTimeText = t.GetComponent<TMP_Text>();
         }
 
         BindButtons(pauseScreen);
@@ -126,10 +181,25 @@ public class LevelManager : MonoBehaviour
         HideScreen(winScreen);
     }
 
+    // --- FIX: Searches locally inside the active screen to update its specific CountText ---
+    void UpdateCountTextDisplay(Transform screen)
+    {
+        if (screen == null) return;
+
+        // Recursively searches all children, down through your PerfumeCount images
+        TMP_Text[] allTexts = screen.GetComponentsInChildren<TMP_Text>(true);
+        foreach (TMP_Text t in allTexts)
+        {
+            if (t.gameObject.name == "CountText")
+            {
+                t.text = $"{collectedPerfumes} / {totalPerfumes}";
+            }
+        }
+    }
+
     void BindButtons(Transform screen)
     {
-        if (screen == null)
-            return;
+        if (screen == null) return;
 
         Button[] buttons = screen.GetComponentsInChildren<Button>(true);
         foreach (Button b in buttons)
@@ -149,12 +219,10 @@ public class LevelManager : MonoBehaviour
     void SetupParfumBar()
     {
         GameObject bar = GameObject.Find("parfumbar");
-        if (bar == null)
-            return;
+        if (bar == null) return;
 
         parfumBar = bar.GetComponent<SpriteRenderer>();
-        if (parfumBar == null)
-            return;
+        if (parfumBar == null) return;
 
         float autoW = parfumBar.sprite != null ? parfumBar.sprite.bounds.size.x : 1f;
         float autoH = parfumBar.sprite != null ? parfumBar.sprite.bounds.size.y * 0.55f : 0.5f;
@@ -163,16 +231,18 @@ public class LevelManager : MonoBehaviour
         parfumFillHeight = fillHeight > 0f ? fillHeight : autoH;
         parfumFillLeftX = -parfumBarWidth * 0.5f + fillOffset.x;
 
-        // Kendi fill objeni elle koymak istersen parfumbar altina "ParfumFill" adinda bir obje ekle; script onu kullanir.
         Transform existing = bar.transform.Find("ParfumFill");
         GameObject fillGO = existing != null ? existing.gameObject : new GameObject("ParfumFill");
 
         SpriteRenderer sr = fillGO.GetComponent<SpriteRenderer>();
-        if (sr == null)
-            sr = fillGO.AddComponent<SpriteRenderer>();
-        if (sr.sprite == null)
-            sr.sprite = MakeUnitSprite();
+        if (sr == null) sr = fillGO.AddComponent<SpriteRenderer>();
+        
+        if (sr.sprite == null) sr.sprite = MakeUnitSprite();
+        
         sr.color = fillColor;
+        sr.material = parfumBar.material; 
+        sr.drawMode = SpriteDrawMode.Simple; 
+        
         sr.sortingLayerID = parfumBar.sortingLayerID;
         sr.sortingOrder = parfumBar.sortingOrder + 1;
 
@@ -192,8 +262,7 @@ public class LevelManager : MonoBehaviour
 
     void UpdateBar()
     {
-        if (parfumFill == null)
-            return;
+        if (parfumFill == null) return;
 
         parfumFill.localPosition = new Vector3(parfumFillLeftX, fillOffset.y, 0f);
         parfumFill.localScale = new Vector3(parfumBarWidth * fill, parfumFillHeight, 1f);
@@ -205,6 +274,10 @@ public class LevelManager : MonoBehaviour
     {
         state = State.Paused;
         Time.timeScale = 0f;
+        
+        // Target specifically the pause screen components
+        UpdateCountTextDisplay(pauseScreen);
+        
         ShowScreen(pauseScreen);
     }
 
@@ -219,6 +292,17 @@ public class LevelManager : MonoBehaviour
     {
         state = State.Lost;
         Time.timeScale = 0f;
+        
+        if (timeSurvivedText != null)
+        {
+            int minutes = Mathf.FloorToInt(elapsedTime / 60F);
+            int seconds = Mathf.FloorToInt(elapsedTime - minutes * 60);
+            timeSurvivedText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        }
+        
+        // Target specifically the lose screen components
+        UpdateCountTextDisplay(gameOverScreen);
+        
         ShowScreen(gameOverScreen);
     }
 
@@ -226,11 +310,21 @@ public class LevelManager : MonoBehaviour
     {
         state = State.Won;
         Time.timeScale = 0f;
+        
+        if (totalTimeText != null)
+        {
+            int minutes = Mathf.FloorToInt(elapsedTime / 60F);
+            int seconds = Mathf.FloorToInt(elapsedTime - minutes * 60);
+            totalTimeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        }
+        
+        // Target specifically the win screen components
+        UpdateCountTextDisplay(winScreen);
+        
         ShowScreen(winScreen);
     }
 
     // ---- Buton metodlari ----
-
     public void OnRetryButton()
     {
         Time.timeScale = 1f;
@@ -256,30 +350,21 @@ public class LevelManager : MonoBehaviour
 
     public void OnCloseButton()
     {
-        if (state == State.Paused)
-            Resume();
-        else
-            OnRetryButton();
+        if (state == State.Paused) Resume();
+        else OnRetryButton();
     }
-
-    // ---- Yardimcilar ----
 
     void ShowScreen(Transform screen)
     {
-        if (screen == null)
-            return;
-
+        if (screen == null) return;
         RectTransform rt = screen as RectTransform;
-        if (rt != null)
-            rt.anchoredPosition = Vector2.zero;
-
+        if (rt != null) rt.anchoredPosition = Vector2.zero;
         screen.gameObject.SetActive(true);
         screen.SetAsLastSibling();
     }
 
     void HideScreen(Transform screen)
     {
-        if (screen != null)
-            screen.gameObject.SetActive(false);
+        if (screen != null) screen.gameObject.SetActive(false);
     }
 }

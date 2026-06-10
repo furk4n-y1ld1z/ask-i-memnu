@@ -9,6 +9,9 @@ public class npcvision : MonoBehaviour
     [SerializeField] Vector3 viewOffset = new Vector3(0f, 0.2f, 0f);
     [SerializeField] Color normalColor = new Color(1f, 0.9f, 0.2f, 0.2f);
     [SerializeField] Color detectedColor = new Color(1f, 0.2f, 0.2f, 0.3f);
+    
+    // NEW: We need a way to tell the script what a "wall" is!
+    [SerializeField] LayerMask obstacleMask;
 
     npcwander wander;
     Transform visualRoot;
@@ -109,13 +112,27 @@ public class npcvision : MonoBehaviour
 
         vertices[0] = new Vector3(viewOffset.x * scaleComp.x, viewOffset.y * scaleComp.y, 0f);
         float halfAngle = viewAngle * 0.5f;
+        
+        // Get the world position of the eye origin
+        Vector2 rayOrigin = (Vector2)transform.position + new Vector2(viewOffset.x, viewOffset.y);
 
         for (int i = 0; i <= segments; i++)
         {
             float t = i / (float)segments;
             float angle = Mathf.Lerp(-halfAngle, halfAngle, t);
             Vector2 dir = Rotate(facingDirection, angle);
-            Vector3 point = viewOffset + new Vector3(dir.x, dir.y, 0f) * viewDistance;
+            
+            // NEW: Raycast to find walls!
+            float currentDistance = viewDistance;
+            RaycastHit2D hit = Physics2D.Raycast(rayOrigin, dir, viewDistance, obstacleMask);
+            
+            if (hit.collider != null)
+            {
+                // If the ray hits a wall, stop drawing the mesh at that distance
+                currentDistance = hit.distance;
+            }
+
+            Vector3 point = viewOffset + new Vector3(dir.x, dir.y, 0f) * currentDistance;
             vertices[i + 1] = new Vector3(point.x * scaleComp.x, point.y * scaleComp.y, 0f);
         }
 
@@ -148,11 +165,23 @@ public class npcvision : MonoBehaviour
         Vector2 origin = (Vector2)transform.position + (Vector2)viewOffset;
         Vector2 toPlayer = (Vector2)player.position - origin;
         float distance = toPlayer.magnitude;
+        
         if (distance > viewDistance || distance < 0.001f)
             return false;
 
         float angle = Vector2.Angle(facingDirection, toPlayer.normalized);
-        return angle <= viewAngle * 0.5f;
+        if (angle > viewAngle * 0.5f) 
+            return false;
+            
+        // NEW: Line of Sight Check!
+        // Shoot a ray at Behlül. If it hits an obstacle first, he is safe.
+        RaycastHit2D hit = Physics2D.Raycast(origin, toPlayer.normalized, distance, obstacleMask);
+        if (hit.collider != null)
+        {
+            return false; 
+        }
+
+        return true;
     }
 
     static Vector2 Rotate(Vector2 vector, float degrees)
